@@ -1,12 +1,12 @@
 import React from "react"
 import { NavLink } from "react-router-dom";
-import Logo from "./Logo-CV.jpg";
+import LOGO from "./LOGO.png";
 import "./menu.css"
 
 const Menu = () => {
   return (
     <nav>
-      <img className="img_menu" src={Logo} alt="" />   
+      <img className="img_menu" src={LOGO} alt="" />   
       <ul>
         <li>
           <NavLink exact="treu" to="/">Inicio</NavLink>
