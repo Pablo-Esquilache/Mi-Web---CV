@@ -7,12 +7,8 @@ const TertiaryEducation = () => {
       <img src={img_ilustrativa} alt="estudios secundarios" />
       <div className="txt_container">
         <h2>Educacion Terciaria</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          cumque sint fugiat odio hic. Qui voluptate corrupti nisi tenetur
-          adipisci laborum ad, ratione ut voluptatum sit pariatur doloremque quo
-          doloribus?
-        </p>
+        <h4>I.S.F.T. N° 150</h4>
+        <p>Tecnico en Administracion Publica, 2021</p>
       </div>
     </div>
   );

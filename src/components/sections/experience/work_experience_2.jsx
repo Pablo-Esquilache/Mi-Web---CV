@@ -6,13 +6,11 @@ const WorkExperience2 = () => {
     <div className="work_card">
       <img src={img_ilustrativa} alt="experiencia laboral" />
       <div className="txt_container">
-        <h2>Experiencia Laboral 2</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          cumque sint fugiat odio hic. Qui voluptate corrupti nisi tenetur
-          adipisci laborum ad, ratione ut voluptatum sit pariatur doloremque quo
-          doloribus?
-        </p>
+        <h2>Municipalidad de Carlos Tejedor</h2>
+        <ul>
+          <li>Concejal - 2017 a 2021</li>
+          <li>Director de Coordinación y Modernización - 2017 a 2019</li>
+        </ul>
       </div>
     </div>
   );

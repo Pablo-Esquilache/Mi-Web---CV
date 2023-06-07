@@ -1,27 +1,26 @@
 import React from "react";
-import img_ilustrativa from "./img_ilustrativa.jpg";
+import instagram from "./instagram.png";
+import facebook from "./facebook.png";
+import gmail from "./gmail.png"
+import movil from "./movil.png";
 
 const SocialMedia = () => {
   return (
     <div className="social_media_card">
       <div>
-        <img src={img_ilustrativa} alt="imagen ilustrativa" />
-        <h3>Instagra</h3>
+        <img src={instagram} alt="Logo Instagram" />
+        <h3>Instagram</h3>
       </div>
       <div>
-        <img src={img_ilustrativa} alt="imagen ilustrativa" />
+        <img src={facebook} alt="Logo facebook" />
         <h3>FaceBook</h3>
       </div>
       <div>
-        <img src={img_ilustrativa} alt="imagen ilustrativa" />
-        <h3>Twitter</h3>
-      </div>
-      <div>
-        <img src={img_ilustrativa} alt="imagen ilustrativa" />
+        <img src={gmail} alt="Logo Gmail" />
         <h3>Email</h3>
       </div>
       <div>
-        <img src={img_ilustrativa} alt="imagen ilustrativa" />
+        <img src={movil} alt="Logo Celular" />
         <h3>Celular</h3>
       </div>
     </div>

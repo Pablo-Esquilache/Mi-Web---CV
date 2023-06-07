@@ -7,12 +7,8 @@ const FrontDeveloperEducation = () => {
       <img src={img_ilustrativa} alt="estudios secundarios" />
       <div className="txt_container">
         <h2>Fron-End developer</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          cumque sint fugiat odio hic. Qui voluptate corrupti nisi tenetur
-          adipisci laborum ad, ratione ut voluptatum sit pariatur doloremque quo
-          doloribus?
-        </p>
+        <h4>Coderhouse</h4>
+        <p>Front End Developer, 2022 HTML, CSS, JAVASCRIIPT y REACT.JS</p>
       </div>
     </div>
   );

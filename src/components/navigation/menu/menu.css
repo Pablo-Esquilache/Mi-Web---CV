@@ -7,7 +7,7 @@ nav {
   height: 200px;
 }
 
-ul {
+nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -17,12 +17,11 @@ ul {
   padding: 0;
 }
 
-li {
+nav li {
   margin: auto;
-  padding: 0;
   background-color: rgb(0, 0, 102);
   width: 100px;
-  height: 20px;
+  height: 30px;
   padding: 5px;
   text-align: center;
 }

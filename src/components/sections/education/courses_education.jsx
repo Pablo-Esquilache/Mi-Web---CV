@@ -5,15 +5,19 @@ const CoursesEducation = () => {
   return (
     <div className="education_card">
       <img src={img_ilustrativa} alt="estudios secundarios" />
-      <div className="txt_container">
-        <h2>Cursos realizados</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          cumque sint fugiat odio hic. Qui voluptate corrupti nisi tenetur
-          adipisci laborum ad, ratione ut voluptatum sit pariatur doloremque quo
-          doloribus?
-        </p>
-      </div>
+        <div className="txt_container">
+          <h2>Cursos realizados</h2>
+          <ul>
+            <li>
+              Curso de administrador de empresas, instituto ISIV (Modalidad a
+              distancia).
+            </li>
+            <li>Curso de marketing, instituto ISIV (Modalidad a distancia).</li>
+            <li>
+              Curso de Proyect Manager. Modalidad on-line en www.capacitarte.org
+            </li>
+          </ul>
+        </div>
     </div>
   );
 };

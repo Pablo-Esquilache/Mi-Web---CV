@@ -32,4 +32,6 @@
     margin-bottom: 10px;
 }
 #form_contact textarea {
-resize: none;}
+resize: none;
+height: 100px;
+}

@@ -7,11 +7,9 @@ const SecondaryEducation = () => {
       <img src={img_ilustrativa} alt="estudios secundarios" />
       <div className="txt_container">
         <h2>Educacion Secundaria</h2>
+        <h4>Escuela Media N° 4</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          cumque sint fugiat odio hic. Qui voluptate corrupti nisi tenetur
-          adipisci laborum ad, ratione ut voluptatum sit pariatur doloremque quo
-          doloribus?
+          Bachiller, modalidad Economía y Gestión de las Organizaciones, 2007
         </p>
       </div>
     </div>

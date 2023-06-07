@@ -6,13 +6,12 @@ const WorkExperience1 = () => {
     <div className="work_card">
       <img src={img_ilustrativa} alt="experiencia laboral" />
       <div className="txt_container">
-        <h2>Experiencia Laboral 1</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          cumque sint fugiat odio hic. Qui voluptate corrupti nisi tenetur
-          adipisci laborum ad, ratione ut voluptatum sit pariatur doloremque quo
-          doloribus?
-        </p>
+        <h2>Supermercado Alcer</h2>
+        <h4>Cajero y Repositor - 2011 a la actualidad</h4>
+        <ul>
+          <li>Atención al cliente en el sector de cajas.</li>
+          <li>Reposición de mercadería.</li>
+        </ul>
       </div>
     </div>
   );
