@@ -1,10 +1,10 @@
 import React from "react";
-import img_ilustrativa from "./img_ilustrativa.jpg";
+import work_img from "./work_img.png";
 
 const WorkExperience4 = () => {
   return (
     <div className="work_card">
-      <img src={img_ilustrativa} alt="experiencia laboral" />
+      <img src={work_img} alt="experiencia laboral" />
       <div className="txt_container">
         <h2>Experiencia Laboral 4</h2>
         <p>

@@ -1,37 +1,44 @@
 .contact_container {
-    padding: 0 10px 0 10px;
+  padding: 0 10px 0 10px;
 }
 .contact_cards_container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;    
-    justify-content: space-around;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .social_media_card {
-    width: 40%;
+  width: 40%;
 }
 .social_media_card div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.social_media_card div  img {
-    width: 50px;
-    margin-right: 10px;
+.social_media_card div img {
+  width: 50px;
+  margin-right: 10px;
 }
 .contact_card {
-    width: 40%;
+  width: 40%;
 }
 #form_contact {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-#form_contact div{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
+#form_contact div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+#form_contact div input {
+    height: 30px;
+  border: ridge black;
+  border-color: rgb(0, 0, 102);
 }
 #form_contact textarea {
-resize: none;
-height: 100px;
+  resize: none;
+  height: 100px;
+  border: ridge black;
+  border-color: rgb(0, 0, 102);
 }
