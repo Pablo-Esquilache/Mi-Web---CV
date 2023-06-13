@@ -1,10 +1,10 @@
 import React from "react";
-//import YOO3 from "./YOO3.jpg";
+import fondo_index from "./fondo_index.png";
 
 const ImgProfile = () => {
   return (
     <div className="img_conatiner_home">
-      <img src="https://placeimg.com/1351/500/people" alt="profile" />
+      <img src={fondo_index} alt="profile" />
     </div>
   );
 };

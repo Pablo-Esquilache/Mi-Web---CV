@@ -1,27 +1,43 @@
 import React from "react";
-import instagram from "./instagram.png";
-import facebook from "./facebook.png";
-import gmail from "./gmail.png"
-import movil from "./movil.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faMobile } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 
 const SocialMedia = () => {
   return (
     <div className="social_media_card">
-      <div>
-        <img src={instagram} alt="Logo Instagram" />
-        <h3>Instagram</h3>
+      <div className="icon_card">
+        <div className="icon_container">
+          <FontAwesomeIcon className="icon" icon={faInstagram} />
+        </div>
+        <div className="txt_icon">
+          <h3>Instagram</h3>
+        </div>
       </div>
-      <div>
-        <img src={facebook} alt="Logo facebook" />
-        <h3>FaceBook</h3>
+      <div className="icon_card">
+        <div className="icon_container">
+          <FontAwesomeIcon className="icon" icon={faFacebookF} />
+        </div>
+        <div className="txt_icon">
+          <h3>FaceBook</h3>
+        </div>
       </div>
-      <div>
-        <img src={gmail} alt="Logo Gmail" />
-        <h3>Email</h3>
+      <div className="icon_card">
+        <div className="icon_container">
+          <FontAwesomeIcon className="icon" icon={faEnvelope} />
+        </div>
+        <div className="txt_icon">
+          <h3>Email</h3>
+        </div>
       </div>
-      <div>
-        <img src={movil} alt="Logo Celular" />
-        <h3>Celular</h3>
+      <div className="icon_card">
+        <div className="icon_container">
+          <FontAwesomeIcon className="icon" icon={faMobile} />
+        </div>
+        <div className="txt_icon">
+          <h3>Celular</h3>
+        </div>
       </div>
     </div>
   );

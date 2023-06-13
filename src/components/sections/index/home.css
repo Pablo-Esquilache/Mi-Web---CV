@@ -3,9 +3,12 @@
 }
 .img_conatiner_home {
     width: 100%;
-    height: 500px;
+}
+.img_conatiner_home img {
+    width: 100%;
 }
 .txt_container_home {
     text-align: center;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 50px 10px;
+    margin-top: 50px;
 }

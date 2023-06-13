@@ -6,19 +6,33 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 0 10px 50px 10px;
 }
 .social_media_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 40%;
 }
-.social_media_card div {
+.icon_card {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
-.social_media_card div img {
-  width: 50px;
-  margin-right: 10px;
+.icon_container {
+  width: 20%;
+  text-align: center;
 }
+.icon {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.txt_icon {
+width: 80%;
+}
+/* ----------------------------------------------------------------- */
 .contact_card {
   width: 40%;
 }
@@ -29,12 +43,14 @@
 #form_contact div {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
 }
 #form_contact div input {
-    height: 30px;
+  height: 30px;
   border: ridge black;
   border-color: rgb(0, 0, 102);
+}
+#form_contact div label {
+  margin:  5px 0 5px 0;
 }
 #form_contact textarea {
   resize: none;
