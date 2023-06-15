@@ -5,25 +5,41 @@ import { faMobile } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 
 const SocialMedia = () => {
+  const handleEmailClick = () => {
+    window.location.href = "mailto:pabloesquilache@gmail.com";
+  };
+
   return (
     <div className="social_media_card">
-      <div className="icon_card">
-        <div className="icon_container">
-          <FontAwesomeIcon className="icon" icon={faInstagram} />
+      <a
+        href="https://www.instagram.com/pabloesquilache"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="icon_card">
+          <div className="icon_container">
+            <FontAwesomeIcon className="icon" icon={faInstagram} />
+          </div>
+          <div className="txt_icon">
+            <h3>Instagram</h3>
+          </div>
         </div>
-        <div className="txt_icon">
-          <h3>Instagram</h3>
+      </a>
+      <a
+        href="https://www.facebook.com/PabloEsquilache"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="icon_card">
+          <div className="icon_container">
+            <FontAwesomeIcon className="icon" icon={faFacebookF} />
+          </div>
+          <div className="txt_icon">
+            <h3>FaceBook</h3>
+          </div>
         </div>
-      </div>
-      <div className="icon_card">
-        <div className="icon_container">
-          <FontAwesomeIcon className="icon" icon={faFacebookF} />
-        </div>
-        <div className="txt_icon">
-          <h3>FaceBook</h3>
-        </div>
-      </div>
-      <div className="icon_card">
+      </a>
+      <div className="icon_card" onClick={handleEmailClick}>
         <div className="icon_container">
           <FontAwesomeIcon className="icon" icon={faEnvelope} />
         </div>
@@ -31,14 +47,20 @@ const SocialMedia = () => {
           <h3>Email</h3>
         </div>
       </div>
-      <div className="icon_card">
-        <div className="icon_container">
-          <FontAwesomeIcon className="icon" icon={faMobile} />
+      <a
+        href="https://wa.me/542355642628"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="icon_card">
+          <div className="icon_container">
+            <FontAwesomeIcon className="icon" icon={faMobile} />
+          </div>
+          <div className="txt_icon">
+            <h3>Celular</h3>
+          </div>
         </div>
-        <div className="txt_icon">
-          <h3>Celular</h3>
-        </div>
-      </div>
+      </a>
     </div>
   );
 };
