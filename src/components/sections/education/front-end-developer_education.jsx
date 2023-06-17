@@ -4,11 +4,11 @@ import education_img from "./education_img.png";
 const FrontDeveloperEducation = () => {
   return (
     <div className="education_card">
-      <img src={education_img} alt="estudios secundarios" />
-      <div className="txt_container">
-        <h2>Fron-End developer</h2>
-        <h4>Coderhouse</h4>
-        <p>Front End Developer, 2022 HTML, CSS, JAVASCRIIPT y REACT.JS</p>
+      <img className="education_card_img" src={education_img} alt="estudios secundarios" />
+      <div className="education_card_text">
+        <h2 className="education_card_title">Front-End Developer</h2>
+        <h4 className="education_card_subtitle">Coderhouse</h4>
+        <p className="education_card_description">Front End Developer, 2022 - HTML, CSS, JavaScript y React.js</p>
       </div>
     </div>
   );

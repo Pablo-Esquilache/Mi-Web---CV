@@ -1,15 +1,24 @@
 .home_container {
     width: 100%;
-    margin-bottom: 100px;
-}
-.img_conatiner_home {
+    padding-bottom: 50px;
+  }
+  
+  .img_conatiner_home {
     width: 100%;
-}
-.img_conatiner_home img {
+  }
+  
+  .img_conatiner_home img {
     width: 100%;
-}
-.txt_container_home {
+  }
+  
+  .txt_container_home {
     text-align: center;
-    padding: 0 10px 50px 10px;
+    padding: 0 10px;
     margin-top: 50px;
-}
+  }
+  
+  .txt_container_home p {
+    color: white;
+    line-height: 1.5;
+  }
+  

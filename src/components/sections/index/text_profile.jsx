@@ -5,21 +5,19 @@ const TextProfile = () => {
     <div className="txt_container_home">
       <div>
         <p>
-          Hola! Soy Pablo Esquilache y esta es mi pagina web. En este sitio vas
-          a encontrar información sobre mi capacitación, sobre mi experiencia
-          laboral y una sección de contacto para que puedas comunicarte conmigo.
+        ¡Hola! Soy Pablo Esquilache y quiero presentarte mi página web. Aquí podrás encontrar información sobre mi formación académica, mi experiencia laboral y una sección de contacto para comunicarte conmigo.
         </p>
         <p>
-          Soy padre de una niña de 5 años. Tengo 33 años y vivo en Carlos
-          Tejedor, provincia de Buenos Aires. Soy desarrollador front - end y
-          técnico en administración pública.
+        Permíteme compartir algunos detalles sobre mí. Tengo 33 años y vivo en Carlos Tejedor, provincia de Buenos Aires. Además, soy padre de una encantadora niña de 5 años. Me considero una persona organizada y metódica, capaz de adaptarme a los cambios con facilidad.
         </p>
         <p>
-          Tengo experiencia en el sector privado, en la administración Publica y
-          busco desarrollarme en el mundo IT como desarrollador web,
-          aprovechando mi pasión y habilidades para contribuir al éxito de
-          proyectos emocionantes. Mi enfoque ordenado, estructurado y metódico
-          me permite adaptarme fácilmente a los cambios.
+        Soy Desarrollador Front - End y Técnico en Administración Pública. He trabajado en el sector privado y en el sector público, adquiriendo conocimientos valiosos en ambos ámbitos. En la actualidad, estoy enfocado en desarrollar mi carrera en el campo de la tecnología de la información como desarrollador web. Mi objetivo es utilizar mis habilidades y conocimientos para contribuir al éxito de proyectos en este emocionante campo.
+        </p>
+        <p>
+        Te invito a explorar mi página web para obtener más detalles sobre mi formación y experiencia laboral. Si tienes alguna pregunta o deseas colaborar en proyectos interesantes, no dudes en contactarme. Estoy entusiasmado por establecer nuevas conexiones y formar parte de proyectos en el mundo de la tecnología.
+        </p>
+        <p>
+        ¡Gracias por visitar mi página web y mostrar interés en mi perfil profesional! Espero tener la oportunidad de colaborar contigo y participar en proyectos exitosos.
         </p>
       </div>
     </div>

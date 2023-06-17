@@ -8,7 +8,7 @@ import "./education.css";
 const Education = () => {
   return (
     <section className="education_container">
-      <h1>Estudios</h1>
+      <h1 className="education_title">Estudios</h1>
       <div className="education_cards_container">
         <SecondaryEducation />
         <TertiaryEducation />

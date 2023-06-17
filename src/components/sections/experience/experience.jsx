@@ -11,7 +11,7 @@ import "./work_experience.css";
 const Experience = () => {
   return (
     <section className="work_container">
-      <h1>Experiencia Laboral</h1>
+      <h1 className="work_title">Experiencia Laboral</h1>
       <div className="work_cards_container">
         <WorkExperience1 />
         <WorkExperience2 />
