@@ -36,6 +36,9 @@
 }
 
 .work_card_text {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   margin-left: 20px;
@@ -93,3 +96,59 @@
   width: 100%;
   height: 100%;
 }
+/* Responsive desing */
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .work_cards_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 0 5px;
+  }
+  .work_card:hover {
+    transform: scale(1.025);
+  }
+  .work_card_text {
+    font-size: 12.5px !important;
+  }
+  .project_card_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    padding: 0 5px;
+  }
+  .project_card:hover {
+    transform: scale(1.025);
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .work_cards_container {
+    grid-gap: 17.5px;
+    padding: 0 7.5px;
+  }
+  .work_card:hover {
+    transform: scale(1.025);
+  }
+  .work_card_text {
+    font-size: 15px !important;
+  }
+  .project_card_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    padding: 0 5px;
+  }
+  .project_card:hover {
+    transform: scale(1.025);
+  }
+}
+
+/* Estilos para pantallas más grandes */
+@media screen and (min-width: 1025px) {
+}
+

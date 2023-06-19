@@ -1,4 +1,7 @@
 @import url("./normalize.css");
+ * {
+  font-size: 20px; 
+}
 
 body {
   width: 100%;
@@ -16,4 +19,24 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+  /* Responsive Desing */
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 15px;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  * {
+    font-size: 17.5px;
+  }
+}
+
+/* Estilos para pantallas más grandes */
+@media screen and (min-width: 1025px) {
 }

@@ -8,9 +8,9 @@ const CoursesEducation = () => {
       <div className="education_card_text">
         <h2 className="education_card_title">Cursos realizados</h2>
         <ul className="education_card_description">
-          <li>Curso de administrador de empresas, instituto ISIV (Modalidad a distancia).</li>
-          <li>Curso de marketing, instituto ISIV (Modalidad a distancia).</li>
-          <li>Curso de Project Manager. Modalidad en línea en www.capacitarte.org</li>
+          <li>- Curso de administrador de empresas, instituto ISIV (Modalidad a distancia).</li>
+          <li>- Curso de marketing, instituto ISIV (Modalidad a distancia).</li>
+          <li>- Curso de Project Manager. Modalidad en línea en www.capacitarte.org</li>
         </ul>
       </div>
     </div>

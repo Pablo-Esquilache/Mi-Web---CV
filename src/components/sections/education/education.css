@@ -37,9 +37,13 @@
 }
 
 .education_card_text {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+  font-size: 17.5px !important;
 }
 
 .education_card_title {
@@ -56,3 +60,40 @@
   color: rgb(0, 0, 102);
   line-height: 1.5;
 }
+
+/* Responsive Desing */
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .education_cards_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 0 5px;
+  }
+  .education_card:hover {
+    transform: scale(1.025);
+  }
+  .education_card_text {
+    font-size: 12.5px !important;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .education_cards_container {    
+    grid-gap: 17.5px;
+    padding: 0 7.5px;
+  }
+  .education_card:hover {
+    transform: scale(1.025);
+  }
+  .education_card_text {
+    font-size: 15px !important;
+  }
+}
+
+/* Estilos para pantallas más grandes */
+@media screen and (min-width: 1025px) {
+}
+

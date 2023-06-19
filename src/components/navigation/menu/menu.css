@@ -20,8 +20,7 @@ nav ul {
 nav li {
   margin: auto;
   background-color: rgb(0, 0, 102);
-  width: 100px;
-  height: 30px;
+  width: 120px;
   padding: 5px;
   text-align: center;
 }
@@ -33,3 +32,46 @@ a {
 .img_menu {
   width: 200px;
 }
+
+/* Responsive Desing */
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 15px;
+  }
+  nav li {
+    width: 100px;
+  }
+  .img_menu {
+    width: 180px;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  * {
+    font-size: 17.5px;
+  }
+  nav li {
+    width: 110px;
+  }
+  .img_menu {
+    width: 190px;
+  }
+}
+
+/* Estilos para pantallas más grandes */
+/* @media screen and (min-width: 1025px) {
+  * {
+      font-size: 17.5px;
+    }
+    nav li {
+      width: 90px;
+      height: 25px;
+    }
+    .img_menu {
+      width: 190px;
+    }
+  }
+ */
