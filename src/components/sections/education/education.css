@@ -71,6 +71,9 @@
     grid-gap: 15px;
     padding: 0 5px;
   }
+  .education_card {
+    height: 160px;
+  }
   .education_card:hover {
     transform: scale(1.025);
   }
@@ -84,6 +87,9 @@
   .education_cards_container {    
     grid-gap: 17.5px;
     padding: 0 7.5px;
+  }
+  .education_card {
+    height: 180px;
   }
   .education_card:hover {
     transform: scale(1.025);

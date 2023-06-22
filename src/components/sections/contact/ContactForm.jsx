@@ -29,22 +29,22 @@ const ContactForm = () => {
       <form ref={form} onSubmit={sendEmail} id="form_contact">
         <div>
           {/* <label htmlFor="name">Nombre y Apellido</label> */}
-          <input type="text" name="name" id="name" placeholder='Nombre y Apellido' />
+          <input type="text" name="name" id="name" placeholder='Nombre y Apellido' required />
         </div>
         <div>
           {/* <label htmlFor="mail">E Mail</label> */}
-          <input type="email" name="mail" id="mail" placeholder='E Mail' />
+          <input type="email" name="mail" id="mail" placeholder='E Mail' required />
         </div>
         <div>
           {/* <label htmlFor="affair">Asunto</label> */}
-          <input type="text" name="affair" id="affair" placeholder='Asunto' />
+          <input type="text" name="affair" id="affair" placeholder='Asunto' required />
         </div>
         <div>
           {/* <label htmlFor="message">Deje aqui su mensaje...</label> */}
-          <textarea name="message" id="message" placeholder='Deje aqui su mensaje...'></textarea>
+          <textarea name="message" id="message" placeholder='Deje aqui su mensaje...' required></textarea>
         </div>
         <div>
-          <input type="submit" value="Enviar" />
+          <input className='btn_enviar' type="submit" value="Enviar" />
         </div>
       </form>
     </div>

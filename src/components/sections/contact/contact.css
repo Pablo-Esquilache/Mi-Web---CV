@@ -51,6 +51,7 @@
 }
 .txt_icon {
 width: 50%;
+color: rgb(0, 0, 102);
 }
 /* ----------------------------------------------------------------- */
 .contact_card {
@@ -72,7 +73,8 @@ width: 50%;
   border: 5px ridge black;
   border-color: rgb(0, 0, 102);
   transition: transform 0.3s ease;  
-  margin: 5px 0 5px 0
+  margin: 5px 0 5px ;
+  padding: 5px;
 }
 #form_contact div input:hover {
   transform: scale(1.05);
@@ -89,12 +91,16 @@ width: 50%;
   border: 5px ridge black;
   border-color: rgb(0, 0, 102);
   transition: transform 0.3s ease;
+  padding: 5px;
 }
 #form_contact textarea:hover {
   transform: scale(1.05);
 }
 #form_contact textarea * {
   pointer-events: none;
+}
+.btn_enviar {
+  color: rgb(0, 0, 102);
 }
 
 /* Responsive Desing */
