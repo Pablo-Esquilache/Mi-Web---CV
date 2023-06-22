@@ -28,20 +28,20 @@ const ContactForm = () => {
     <div className="contact_card">
       <form ref={form} onSubmit={sendEmail} id="form_contact">
         <div>
-          <label htmlFor="name">Nombre y Apellido</label>
-          <input type="text" name="name" id="name" />
+          {/* <label htmlFor="name">Nombre y Apellido</label> */}
+          <input type="text" name="name" id="name" placeholder='Nombre y Apellido' />
         </div>
         <div>
-          <label htmlFor="mail">E Mail</label>
-          <input type="email" name="mail" id="mail" />
+          {/* <label htmlFor="mail">E Mail</label> */}
+          <input type="email" name="mail" id="mail" placeholder='E Mail' />
         </div>
         <div>
-          <label htmlFor="affair">Asunto</label>
-          <input type="text" name="affair" id="affair" />
+          {/* <label htmlFor="affair">Asunto</label> */}
+          <input type="text" name="affair" id="affair" placeholder='Asunto' />
         </div>
         <div>
-          <label htmlFor="message">Deje aqui su mensaje...</label>
-          <textarea name="message" id="message"></textarea>
+          {/* <label htmlFor="message">Deje aqui su mensaje...</label> */}
+          <textarea name="message" id="message" placeholder='Deje aqui su mensaje...'></textarea>
         </div>
         <div>
           <input type="submit" value="Enviar" />
