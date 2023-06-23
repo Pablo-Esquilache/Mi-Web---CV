@@ -8,15 +8,14 @@ import Contact from "./components/sections/contact/contact";
 import Spinner from "./components/spinner/Spinner";
 
 const App = () => {
+  
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setIsLoading(false);
-    }, 3000); // Tiempo de espera para la animación del Spinner (en milisegundos)
-
-    return () => {
-      clearTimeout(timeout);
+    window.onload = () => {
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 3000);
     };
   }, []);
 
