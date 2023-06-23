@@ -1,6 +1,7 @@
 import React from "react";
 import ImgProfile from "./img_profile";
 import TextProfile from "./text_profile";
+
 import "./home.css";
 
 const Home = () => {
