@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .spinner {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .logo {
+    width: 250px;
+    margin-bottom: 40px;
+  }
+
+  .spinner {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  /* Estilos para pantallas más grandes */
+  /* Aquí puedes agregar estilos específicos para pantallas más grandes si es necesario */
+}
