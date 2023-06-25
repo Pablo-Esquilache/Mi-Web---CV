@@ -6,7 +6,6 @@ const ProjectExperience3 = () => {
       <iframe
         src="https://radioon-line.netlify.app/"
         title="E Commerce"
-        frameborder="0"
       ></iframe>
     </div>
   );

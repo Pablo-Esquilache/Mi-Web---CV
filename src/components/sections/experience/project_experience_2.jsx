@@ -6,7 +6,6 @@ const ProjectExperience2 = () => {
       <iframe
         src="https://comiteucrcarlostejedor.netlify.app/"
         title="E Commerce"
-        frameborder="0"
       ></iframe>
     </div>
   );

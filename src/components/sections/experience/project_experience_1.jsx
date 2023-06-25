@@ -6,7 +6,6 @@ const ProjectExperience1 = () => {
       <iframe
         src="https://ecommerce-estandar.netlify.app/"
         title="E Commerce"
-        frameborder="0"
       ></iframe>
     </div>
   );
