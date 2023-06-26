@@ -82,6 +82,7 @@
   border-color: rgb(0, 0, 102);
   background-color: white;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 .project_card:hover {
   transform: scale(1.05);
