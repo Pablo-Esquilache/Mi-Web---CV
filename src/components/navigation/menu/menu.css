@@ -45,7 +45,11 @@ a {
     font-size: 15px;
   }
   nav li {
-    width: 100px;
+    width: 100px;    
+    margin: 0 5px;
+  }
+  nav ul {
+    padding: 0 10px;
   }
   .img_menu {
     width: 180px;
