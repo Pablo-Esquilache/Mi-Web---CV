@@ -57,7 +57,7 @@ const SocialMedia = () => {
             <FontAwesomeIcon className="icon" icon={faMobile} />
           </div>
           <div className="txt_icon">
-            <h3>Celular</h3>
+            <h3>Whatsapp</h3>
           </div>
         </div>
       </a>

@@ -13,9 +13,11 @@
 }
 
 .txt_container_home {
-  text-align: center;
+  display: flex;
+  width: 60%;
+  text-align: left;
   padding: 0 10px;
-  margin-top: 50px;
+  margin: 50px auto;
 }
 
 .txt_container_home p {
@@ -30,11 +32,17 @@
   .home_container {
     margin-top: 90px;
   }
+  .txt_container_home  {
+    width: 80%;
+  }
 }
 
 /* Estilos para pantallas medianas */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .home_container {
     margin-top: 100px;
+  }
+  .txt_container_home  {
+    width: 70%;
   }
 }
