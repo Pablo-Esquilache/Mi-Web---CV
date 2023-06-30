@@ -1,5 +1,6 @@
 .education_container {
   padding: 0 10px;
+  margin-top: 180px;
   padding-bottom: 50px;
 }
 
@@ -66,6 +67,10 @@
 
 /* Estilos para pantallas más pequeñas */
 @media screen and (max-width: 768px) {
+  .education_container {
+    margin-top: 90px;
+  }
+
   .education_cards_container {
     display: grid;
     grid-template-columns: 1fr;
@@ -85,7 +90,11 @@
 
 /* Estilos para pantallas medianas */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .education_cards_container {    
+  .education_container {
+    margin-top: 100px;
+  }
+
+  .education_cards_container {
     grid-gap: 17.5px;
     padding: 0 7.5px;
   }
@@ -103,4 +112,3 @@
 /* Estilos para pantallas más grandes */
 @media screen and (min-width: 1025px) {
 }
-

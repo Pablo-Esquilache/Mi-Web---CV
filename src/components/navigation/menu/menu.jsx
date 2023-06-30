@@ -13,7 +13,7 @@ const Menu = () => {
   };
 
   const handleMenuItemClick = () => {
-    setShowMenu(false); // Oculta el menú al hacer clic en un elemento del menú
+    setShowMenu(false);
   };
 
   return (
@@ -29,22 +29,22 @@ const Menu = () => {
       <div className={`nav_ul_container ${showMenu ? "show" : ""}`}>
         <ul>
           <li>
-            <NavLink exact to="/" onClick={handleMenuItemClick}>
+            <NavLink exact to="/"  activeClassName="active" onClick={handleMenuItemClick}>
               Inicio
             </NavLink>
           </li>
           <li>
-            <NavLink to="/estudios" onClick={handleMenuItemClick}>
+            <NavLink to="/estudios" activeClassName="active" onClick={handleMenuItemClick}>
               Estudios
             </NavLink>
           </li>
           <li>
-            <NavLink to="/experiencia-laboral" onClick={handleMenuItemClick}>
+            <NavLink to="/experiencia-laboral" activeClassName="active" onClick={handleMenuItemClick}>
               Experiencia
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contacto" onClick={handleMenuItemClick}>
+            <NavLink to="/contacto" activeClassName="active" onClick={handleMenuItemClick}>
               Contacto
             </NavLink>
           </li>

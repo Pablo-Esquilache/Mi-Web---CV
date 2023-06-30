@@ -1,5 +1,6 @@
 .contact_container {
   padding: 0 10px 0 10px;
+  margin-top: 180px;
   padding-bottom: 50px;
 }
 .contact_title {
@@ -32,6 +33,7 @@
   background-color: white;
   transition: transform 0.3s ease;
   height: 60px;
+  width: 100%;
   margin: 5px 0 5px 0;
 }
 .icon_card:hover {
@@ -45,14 +47,14 @@
   text-align: center;
 }
 .icon {
-  color:  black;
+  color: black;
   font-size: 45px;
   text-align: center;
   margin: 5px;
 }
 .txt_icon {
-width: 50%;
-color: rgb(0, 0, 102);
+  width: 50%;
+  color: rgb(0, 0, 102);
 }
 /* ----------------------------------------------------------------- */
 .contact_card {
@@ -73,8 +75,8 @@ color: rgb(0, 0, 102);
   height: 40px;
   border: 5px ridge black;
   border-color: rgb(0, 0, 102);
-  transition: transform 0.3s ease;  
-  margin: 5px 0 5px ;
+  transition: transform 0.3s ease;
+  margin: 5px 0 5px;
   padding: 5px;
 }
 #form_contact div input:hover {
@@ -84,7 +86,7 @@ color: rgb(0, 0, 102);
   pointer-events: none;
 }
 #form_contact div label {
-  margin:  5px 0 5px 0;
+  margin: 5px 0 5px 0;
 }
 #form_contact textarea {
   resize: none;
@@ -108,9 +110,12 @@ color: rgb(0, 0, 102);
 
 /* Estilos para pantallas más pequeñas */
 @media screen and (max-width: 768px) {
+  .contact_container {
+    margin-top: 90px;
+  }
+
   .contact_cards_container {
     flex-direction: column-reverse;
-
   }
   .social_media_card {
     width: 100%;
@@ -124,6 +129,9 @@ color: rgb(0, 0, 102);
 
 /* Estilos para pantallas medianas */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .contact_container {
+    margin-top: 10px;
+  }
 }
 
 /* Estilos para pantallas más grandes */
