@@ -32,9 +32,6 @@ nav {
   display: flex;
   transition: all 1s ease; 
 }
-.nav_ul_container:hover {
-  display: flex;
-}
 
 .nav_ul_container.show {
   display: flex;
