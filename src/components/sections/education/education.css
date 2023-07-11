@@ -38,6 +38,8 @@
 
 .education_card_img {
   width: 30%;
+  padding: 10px;
+  overflow: hidden;
 }
 
 .education_card_text {
