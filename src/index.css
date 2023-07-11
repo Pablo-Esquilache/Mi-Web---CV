@@ -25,6 +25,11 @@ code {
     monospace;
 }
 
+.modal-open {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  overflow: hidden;
+}
+
 /* Responsive Desing */
 
 /* Estilos para pantallas más pequeñas */
