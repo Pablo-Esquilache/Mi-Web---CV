@@ -26,6 +26,8 @@ const FrontDeveloperEducation = () => {
       </div>
 
       {isModalOpen && (
+        <>
+        <div className="modal-overlay active"></div>
         <div className="education_card_modal" onClick={handleModalClose}>
           <div className="education_card_text">
             <h2 className="education_card_title">Front-End Developer</h2>
@@ -35,6 +37,7 @@ const FrontDeveloperEducation = () => {
             </p>
           </div>
         </div>
+        </>
       )}
     </div>
   );

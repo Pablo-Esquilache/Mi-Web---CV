@@ -26,6 +26,8 @@ const CoursesEducation = () => {
       </div>
 
       {isModalOpen && (
+        <>
+        <div className="modal-overlay active"></div>
         <div className="education_card_modal" onClick={handleModalClose}>
           <div className="education_card_text">
             <h2 className="education_card_title">Cursos realizados</h2>
@@ -44,6 +46,7 @@ const CoursesEducation = () => {
             </ul>
           </div>
         </div>
+        </>
       )}
     </div>
   );

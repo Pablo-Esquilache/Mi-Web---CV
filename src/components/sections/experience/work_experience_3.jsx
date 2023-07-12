@@ -22,6 +22,8 @@ const WorkExperience3 = () => {
       </div>
 
       {isModalOpen && (
+        <>
+        <div className="modal-overlay active"></div>
         <div className="work_card_modal" onClick={handleModalClose}>
           <div className="work_card_text">
             <h2 className="work_card_title">Estacion de Servicio CIRAT S.A.</h2>
@@ -33,6 +35,7 @@ const WorkExperience3 = () => {
             </ul>
           </div>
         </div>
+        </>
       )}
     </div>
   );

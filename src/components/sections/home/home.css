@@ -70,9 +70,12 @@
   .home_container {
     margin-top: 90px;
   }
-  .txt_container_home  {
-    width: 80%;
+  .txt_home_card {
+    height: 130px;
   }
+  /* .txt_container_home  {
+    width: 80%;
+  } */
 }
 
 /* Estilos para pantallas medianas */
@@ -80,7 +83,10 @@
   .home_container {
     margin-top: 100px;
   }
-  .txt_container_home  {
-    width: 70%;
+  .txt_home_card {
+    height: 180px;
   }
+  /* .txt_container_home  {
+    width: 70%;
+  } */
 }

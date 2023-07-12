@@ -22,6 +22,8 @@ const WorkExperience1 = () => {
       </div>
 
       {isModalOpen && (
+        <>
+        <div className="modal-overlay active"></div>
         <div className="work_card_modal" onClick={handleModalClose}>
           <div className="work_card_text">
             <h2 className="work_card_title">Supermercado Alcer</h2>
@@ -35,6 +37,7 @@ const WorkExperience1 = () => {
             </ul>
           </div>
         </div>
+        </>
       )}
     </div>
   );
