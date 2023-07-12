@@ -6,7 +6,7 @@ const SecondaryEducationContainer = () => {
 
   const handleModalOpen = () => {
     setIsModalOpen(true);
-    document.body.classList.remove('modal-open');
+    document.body.classList.add('modal-open');
 
   };
 
