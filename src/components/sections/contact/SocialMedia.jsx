@@ -1,8 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faMobile } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faFacebookF, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const SocialMedia = () => {
   const handleEmailClick = () => {
@@ -54,7 +53,7 @@ const SocialMedia = () => {
       >
         <div className="icon_card">
           <div className="icon_container">
-            <FontAwesomeIcon className="icon" icon={faMobile} />
+          <FontAwesomeIcon className="icon" icon={faWhatsapp} />
           </div>
           <div className="txt_icon">
             <h3>Whatsapp</h3>

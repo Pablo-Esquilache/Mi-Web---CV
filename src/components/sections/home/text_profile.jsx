@@ -20,6 +20,8 @@ const SecondaryEducationContainer = () => {
       </div>
 
       {isModalOpen && (
+        <>
+        <div className="modal-overlay active"></div>
         <div className="txt_card_modal" onClick={handleModalClose}>
             <div>
               <p>
@@ -63,6 +65,7 @@ const SecondaryEducationContainer = () => {
               </p>
             </div>
           </div>
+          </>
       )}
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import WorkExperience1 from "./work_experience_1";
 import WorkExperience2 from "./work_experience_2";
 import WorkExperience3 from "./work_experience_3";
-import WorkExperience4 from "./work_experience_4";
+//import WorkExperience4 from "./work_experience_4";
 import ProjectExperience1 from "./project_experience_1";
 import ProjectExperience2 from "./project_experience_2";
 import ProjectExperience3 from "./project_experience_3";
@@ -16,7 +16,7 @@ const Experience = () => {
         <WorkExperience1 />
         <WorkExperience2 />
         <WorkExperience3 />
-        <WorkExperience4 />
+        {/* <WorkExperience4 /> */}
       </div>
       <h1>Proyectos</h1>
       <div className="project_card_container">

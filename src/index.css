@@ -1,5 +1,10 @@
 @import url("./normalize.css");
 
+@font-face {
+  font-family: "Engravers Gothic";
+  src: url("./fuentes/Engravers-Gothic-BT-Font.ttf") format("truetype");
+}
+
 * {
   font-size: 20px;
 }
@@ -11,18 +16,14 @@ h1 {
 body {
   width: 100%;
   height: 100vh;
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "engraversgothic-bt-regular", sans-serif;
   background-color: rgb(102, 51, 255);
+  font-family: "Engravers Gothic", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.modal-open {
+  overflow: hidden;
 }
 
 .modal-overlay {
@@ -34,12 +35,11 @@ code {
   background-color: rgba(0, 0, 0, 0.5); /* Opacidad del fondo */
   z-index: 999; /* Asegúrate de que esté por debajo del modal */
   pointer-events: none; /* Deshabilita las interacciones del mouse */
+  overflow: hidden;
 }
-
 .modal-overlay.active {
   pointer-events: auto; /* Activa las interacciones del mouse para la capa de superposición */
 }
-
 
 /* Responsive Desing */
 
