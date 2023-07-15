@@ -16,7 +16,7 @@ const SecondaryEducationContainer = () => {
   return (
     <div className="txt_container_home">
       <div className="txt_home_card" onClick={handleModalOpen}>
-        <h2 className="txt_card_title">Sobre mi...</h2>
+        <h2 className="txt_card_title">¡Hola! Soy Pablo Esquilache y quiero presentarte mi sitio web...</h2>
       </div>
 
       {isModalOpen && (
